@@ -30,6 +30,7 @@ zzzzzzzzzzzzzzzzzz
 
 删除了liyouwu的代码 留下了 自己写的
 
+<<<<<<< HEAD
 1写代码
 2写代码
 1传代码
@@ -69,3 +70,6 @@ $ git push https://github.com/liyouwu/git-demo.git master
 
 
 
+=======
+bbbbbbbbbbbbbbbbb
+>>>>>>> 6128d92a34569829ba7e87e920558b42d84c5d80
