@@ -3,7 +3,7 @@
 2222222222222 hot-fix-text
 3333333333333
 
-<<<<<<< HEAD
+
 代码在github上更改
 
 15542582616 开始修改 
@@ -18,11 +18,14 @@ a
 a
 
 
+
 cccccccccccccccccccc
 
 dddddddd
+
 
 zzzzzzzzzzzzzzzzzz
 
 
 
+删除了liyouwu的代码 留下了 自己写的
