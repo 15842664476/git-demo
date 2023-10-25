@@ -29,3 +29,43 @@ zzzzzzzzzzzzzzzzzz
 
 
 删除了liyouwu的代码 留下了 自己写的
+
+1写代码
+2写代码
+1传代码
+2拉代码
+会报错
+$ git pull https://github.com/liyouwu/git-demo.git master
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 2), reused 6 (delta 2), pack-reused 0
+Unpacking objects: 100% (6/6), 561 bytes | 2.00 KiB/s, done.
+From https://github.com/liyouwu/git-demo
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        hello_world.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 355e5a3..3693803
+
+2提交代码
+$ git add hello_world.txt
+$ git commit -m "2118" hello_world.txt
+
+2再拉代码
+$ git pull https://github.com/liyouwu/git-demo.git master
+
+文件出现冲突
+开始解决冲突
+冲突解决完成
+
+2传代码
+$ git add hello_world.txt
+$ git commit -m "两个都留下"
+$ git push https://github.com/liyouwu/git-demo.git master
+
+成功
+
+
+
